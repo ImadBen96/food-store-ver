@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "cd src && nodemon server.ts",
+    "start": "node built/server.js",
     "build": "npm install && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
