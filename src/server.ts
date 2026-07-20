@@ -33,10 +33,10 @@ app.use(cors({
 app.use("/api/foods",foodRouter);
 app.use("/api/users",userRouter);
 app.use("/api/orders",orderRouter);
-/*app.get('*', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../dist/frontend/browser/index.html'));
-});*/
-app.get('/*', express.static('../../frontend/dist/frontend/browser'));
+});
+//app.get('/*', express.static('../../frontend/dist/frontend/browser'));
 
 const port = 5000;
 app.listen(port,() => {

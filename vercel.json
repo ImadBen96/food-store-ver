@@ -17,7 +17,8 @@
           {
             "src": "/(.*)",
             "dest": "/built/server.js"
-          }
+          },
+           { "src": "dist/**/**/*", "dest": "/dist/**/**/$1" }
     ]
   }
   
