@@ -16,9 +16,9 @@
           },
           {
             "src": "/(.*)",
-            "dest": "/src/server.js"
-          },
-           { "src": "dist/**/**/*", "dest": "/dist/**/**/$1" }
+            "dest": "/built/server.js"
+          }
+           
     ]
   }
   
